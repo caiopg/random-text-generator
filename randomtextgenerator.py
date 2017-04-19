@@ -1,4 +1,4 @@
-import WordGenerator
+import wordgenerator
 
 NUMBER_OF_WORDS = int(input("How many random words do you want? "))
 NUMBER_OF_LETTERS = int(input("How many letters do you want the random words to have? "))
@@ -9,5 +9,5 @@ for i in range(0 , NUMBER_OF_LETTERS):
     user_options.append(user_choice)
 
 for i in range(0, NUMBER_OF_WORDS):
-    word = WordGenerator.assemble_word(user_options)
+    word = wordgenerator.assemble_word(user_options)
     print(word)
